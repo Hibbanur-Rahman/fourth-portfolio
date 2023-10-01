@@ -2,7 +2,28 @@
     margin: 0;
     padding: 0;
 }
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #d1cfcf; 
+    border-radius: 5px;
 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 body {
     margin: 0;
     padding: 0;
@@ -363,6 +384,7 @@ body {
     background-size: cover;
     overflow: hidden;
     margin-right: 20px;
+   
 }
 
 .portfolio .content .card .hover {
@@ -390,3 +412,55 @@ body {
     animation-delay: 0.4S;
     margin-left: 0%;
 }
+
+
+/*============================================= Testimonial section start==================================*/
+.testimonial{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.testimonial  .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+.testimonial .slider{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+}
+
+/* width */
+.testimonial .slider::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 5px;
+    height: 0px;
+  }
+  
+  /* Track */
+.testimonial::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+.testimonial::-webkit-scrollbar-thumb {
+    background: #d1cfcf; 
+    border-radius: 5px;
+
+  }
+  
+  /* Handle on hover */
+.testimonial::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
