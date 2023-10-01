@@ -261,6 +261,81 @@ body{
     color:  #dc3545;
     transition: all 0.4s ease-in-out;
 }
+/*======================== Services Section ===========================*/
+.services {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: rgba(246, 247, 246, 255);
+}
+
+.services .about-heading {
+    padding-bottom: 30px;
+}
+
+.services .about-heading h1 {
+    font-size: 43px;
+    font-weight: 900;
+}
+
+.services .about-heading p {
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.services .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.services .content .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.services .content .card {
+    width: 31%;
+    height: auto;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 0.5px solid rgb(227, 225, 225);
+    box-shadow: 0px 4px 10px 5px rgb(229, 229, 229);
+}
+
+.services .content .card .icon {
+    width: 40px;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.services .content .card h1 {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.services .content .card p {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+}
 /*============================= Portfolio Section ========================*/
 .portfolio {
     width: 100%;
