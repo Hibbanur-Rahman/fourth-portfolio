@@ -598,3 +598,28 @@ body{
     background-color: #d1cfcf;
     transition: all 0.4s ease-in-out;
 }
+/*============================ Blog Section start =======================================*/
+.blog{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: rgba(246, 247, 246, 255);
+}
+.blog .content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+.blog .b-slider{
+    display: flex;
+    width: 100%;
+    
+}
