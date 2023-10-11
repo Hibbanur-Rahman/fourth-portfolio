@@ -600,12 +600,17 @@ body{
     background-color: #d1cfcf;
     transition: all 0.4s ease-in-out;
 }
+<<<<<<< HEAD
 
 
 
 
 /*============================================= Contact Section Start ==================================*/
 .contact{
+=======
+/*============================ Blog Section start =======================================*/
+.blog{
+>>>>>>> 66f96410530047d1448d8492edf2156527fa4592
     width: 100%;
     display: flex;
     align-items: center;
@@ -613,9 +618,15 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     padding: 40px;
+<<<<<<< HEAD
     background-color: white;
 }
 .contact .content {
+=======
+    background-color: rgba(246, 247, 246, 255);
+}
+.blog .content {
+>>>>>>> 66f96410530047d1448d8492edf2156527fa4592
     width: 100%;
     display: flex;
     align-items: center;
@@ -623,5 +634,14 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     padding-top: 40px;
+<<<<<<< HEAD
     overflow-x:hidden;
 }
+=======
+}
+.blog .b-slider{
+    display: flex;
+    width: 100%;
+    
+}
+>>>>>>> 66f96410530047d1448d8492edf2156527fa4592
