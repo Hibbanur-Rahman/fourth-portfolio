@@ -83,3 +83,34 @@ controlArr.forEach((element)=>{
         }
     })
 })
+
+
+//blog slider nav
+var bnext=document.querySelector('.b-next');
+var bprev=document.querySelector('.b-prev');
+var bSlider=document.querySelector('.b-slider');
+var bcountNext=1;
+var bcountPrev=bcountNext;
+bnext.addEventListener('click',()=>{
+    bSlider.style.transition='all 0.5s ease-in-out'
+    bSlider.style.transform=`translateX(-${bcountNext*10}%)`;
+    bprev.style.color='#dc3545';
+    bcountNext++;
+   
+    if(bcountNext>=6){
+        bcountNext=0;
+    }
+    bcountPrev=bcountNext-1;
+})
+
+
+bprev.addEventListener('click',()=>{
+    bcountPrev--;
+    bSlider.style.transition='all 0.5s ease-in-out'
+    bSlider.style.transform=`translateX(-${bcountPrev*10}%)`;
+    bcountNext=bcountPrev+1;
+    if(bcountPrev==0){
+        bprev.style.color='grey';
+        bcountPrev=1;
+    }
+})

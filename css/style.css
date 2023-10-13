@@ -1,49 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* width */
 ::-webkit-scrollbar {
     width: 4px;
     border-radius: 5px;
-  }
+}
 
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
 
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #d1cfcf; 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #d1cfcf;
     border-radius: 5px;
 
-  }
+}
 
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-body{
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.container{
+
+.container {
     width: 100%;
-    height:auto;
+    height: auto;
     display: flex;
 }
-.row{
+
+.row {
     display: flex;
     width: 100%;
 }
+
 /*===================Sidebar section start ====================*/
-.sidebar{
+.sidebar {
     width: 20%;
     position: fixed;
     height: 100vh;
-    background-color: rgba(17,17,17,255);
+    background-color: rgba(17, 17, 17, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,35 +57,41 @@ body{
     box-sizing: border-box;
     padding-top: 30px;
 }
-.profile-img{
+
+.profile-img {
     width: 100px;
     height: 100px;
     overflow: hidden;
     border: 2px solid grey;
     border-radius: 50%;
 }
-.profile-img img{
+
+.profile-img img {
     width: 100%;
     height: 100%;
 
 }
-.profile-data{
+
+.profile-data {
     padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.profile-data h3{
+
+.profile-data h3 {
     font-size: 16px;
     padding-bottom: 6px;
 }
-.profile-data p{
+
+.profile-data p {
     color: grey;
     font-size: 14px;
     text-align: center;
 }
-.navbar{
+
+.navbar {
     width: 80%;
     margin: auto;
     display: flex;
@@ -88,7 +99,8 @@ body{
     justify-content: center;
     box-sizing: border-box;
 }
-.navbar .navlist{
+
+.navbar .navlist {
     width: 100%;
     display: flex;
     align-items: center;
@@ -96,20 +108,23 @@ body{
     flex-direction: column;
     box-sizing: border-box;
 }
-.navbar .navlist .item{
+
+.navbar .navlist .item {
     padding: 10px;
     box-sizing: border-box;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
 }
-.navbar .navlist .item:hover{
-    color: rgba(220,53,69,255);
+
+.navbar .navlist .item:hover {
+    color: rgba(220, 53, 69, 255);
     transition: all 0.4s ease-in-out;
 
 }
+
 /*===========================Sidebar section end ==================================*/
 
-.main{
+.main {
     width: 80%;
     height: auto;
     margin-left: 20%;
@@ -119,7 +134,8 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.home{
+
+.home {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -128,15 +144,18 @@ body{
     flex-direction: column;
     overflow: hidden;
 }
-.homeBackground{
+
+.homeBackground {
     width: 100%;
     height: 100vh;
 }
-.homeBackground img{
+
+.homeBackground img {
     width: 100%;
     height: 100vh;
 }
-.homeContent{
+
+.homeContent {
     position: absolute;
     width: 80%;
     height: 100vh;
@@ -146,33 +165,37 @@ body{
     flex-direction: column;
     background-color: rgba(11, 10, 10, 0.267);
 }
-.homeContent h1{
-    color: white;
-    font-size:54px ;
-}
-.homeContent h1 span{
-    color:rgba(220,53,69,255);
-}
-.autoSlider{
 
+.homeContent h1 {
+    color: white;
+    font-size: 54px;
 }
-.autoSlider p{
+
+.homeContent h1 span {
+    color: rgba(220, 53, 69, 255);
+}
+
+.autoSlider {}
+
+.autoSlider p {
     font-size: 17px;
     color: white;
 }
-.mouseGif{
+
+.mouseGif {
     width: 80px;
     height: 60px;
     position: relative;
     top: 30vh;
 }
-.mouseGif img{
+
+.mouseGif img {
     width: 100%;
     height: 100%;
 }
 
 /*========================== About section start ============================*/
-.about{
+.about {
     width: 100%;
     height: auto;
     display: flex;
@@ -182,12 +205,14 @@ body{
     box-sizing: border-box;
     padding: 40px;
 }
-.about-heading{
-    text-align:left;
+
+.about-heading {
+    text-align: left;
     width: 100%;
 
 }
-.content{
+
+.content {
     width: 100%;
     display: flex;
     align-items: center;
@@ -196,7 +221,8 @@ body{
     padding-top: 50px;
     padding-bottom: 100px;
 }
-.content .right{
+
+.content .right {
     width: 35%;
     height: 70vh;
     border-radius: 10px;
@@ -204,36 +230,42 @@ body{
     box-sizing: border-box;
     box-shadow: 0px 1px 9px 9px rgb(240, 239, 239);
 }
-.about .content .right .Image{
+
+.about .content .right .Image {
     height: 100%;
     width: 100%;
     border: 1px solid rgb(228, 226, 226);
     overflow: hidden;
 }
-.about .content .right .Image img{
+
+.about .content .right .Image img {
     width: 100%;
     height: 100%;
 }
 
-.left{
+.left {
     width: 60%;
     display: flex;
     align-items: right;
     flex-direction: column;
 }
-.left-head-p{
+
+.left-head-p {
     color: #dc3545;
     font-size: 23px;
 }
-.left h2{
+
+.left h2 {
     padding-top: 10px;
 }
-.left p:nth-child(3){
+
+.left p:nth-child(3) {
     color: grey;
     padding-top: 20px;
     padding-bottom: 30px;
     border-bottom: 1.5px solid rgb(212, 208, 208);
 }
+
 .profileData {
     width: 100%;
     display: flex;
@@ -243,25 +275,30 @@ body{
     padding-top: 40px;
     padding-bottom: 20px;
 }
-.profileData .row{
+
+.profileData .row {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 10px;
 }
-.profileData .data-item{
+
+.profileData .data-item {
     display: flex;
     width: 40%;
     align-items: center;
     box-sizing: border-box;
 }
-.profileData .data-item p{
+
+.profileData .data-item p {
     padding: 5px;
 }
-.profileData .data-item p:nth-child(1){
+
+.profileData .data-item p:nth-child(1) {
     font-size: 16px;
     font-weight: 600;
 }
-.about button{
+
+.about button {
     padding: 10px;
     display: flex;
     align-items: center;
@@ -275,14 +312,16 @@ body{
     box-sizing: border-box;
     cursor: pointer;
     transition: all 0.4s ease-in-out;
-    margin-right: 20px ;
+    margin-right: 20px;
 }
-.about button:hover{
+
+.about button:hover {
     background-color: transparent;
     border: 2px solid #dc3545;
-    color:  #dc3545;
+    color: #dc3545;
     transition: all 0.4s ease-in-out;
 }
+
 /*======================== Services Section ===========================*/
 .services {
     width: 100%;
@@ -358,6 +397,7 @@ body{
     text-align: center;
     padding-bottom: 20px;
 }
+
 /*============================= Portfolio Section ========================*/
 .portfolio {
     width: 100%;
@@ -432,7 +472,7 @@ body{
     background-size: cover;
     overflow: hidden;
     margin-right: 20px;
-   
+
 }
 
 .portfolio .content .card .hover {
@@ -463,7 +503,7 @@ body{
 
 
 /*============================================= Testimonial section start==================================*/
-.testimonial{
+.testimonial {
     width: 100%;
     display: flex;
     align-items: center;
@@ -473,7 +513,8 @@ body{
     padding: 40px;
     background-color: rgba(246, 247, 246, 255);
 }
-.testimonial  .content {
+
+.testimonial .content {
     width: 100%;
     display: flex;
     align-items: center;
@@ -483,51 +524,53 @@ body{
     padding-top: 40px;
     overflow-x: scroll;
 }
-.testimonial .slider{
+
+.testimonial .slider {
     width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow-x: scroll;
     box-sizing: border-box;
-    position:relative;
+    position: relative;
     padding-top: 30px;
     padding-bottom: 30px;
     transform: translateX(24.9%);
     transition: all 0.5s ease-in-out;
 }
-.testimonial  .content::-webkit-scrollbar {
+
+.testimonial .content::-webkit-scrollbar {
     width: 4px;
     border-radius: 5px;
     height: 0px;
-  }
+}
 
 /* width */
 .testimonial .slider::-webkit-scrollbar {
     width: 4px;
     border-radius: 5px;
     height: 0px;
-  }
-  
-  /* Track */
+}
+
+/* Track */
 .testimonial::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
+    background: #f1f1f1;
+}
+
+/* Handle */
 .testimonial::-webkit-scrollbar-thumb {
-    background: #d1cfcf; 
+    background: #d1cfcf;
     border-radius: 5px;
 
-  }
-  
-  /* Handle on hover */
+}
+
+/* Handle on hover */
 .testimonial::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+    background: #555;
+}
 
 
-.testimonial .slider .slides{
+.testimonial .slider .slides {
     width: 330px;
     height: 350px;
     display: flex;
@@ -543,49 +586,56 @@ body{
     box-sizing: border-box;
 }
 
-.testimonial .slider .slides .quoteIcon{
+.testimonial .slider .slides .quoteIcon {
     width: 50px;
     height: 50px;
     padding-bottom: 10px;
 }
-.testimonial .slider .slides .quoteIcon img{
+
+.testimonial .slider .slides .quoteIcon img {
     width: 100%;
     height: 100%;
 }
-.testimonial .slider .slides p{
+
+.testimonial .slider .slides p {
     font-size: 14px;
     color: grey;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.testimonial .slider .slides .profileAvatar{
+
+.testimonial .slider .slides .profileAvatar {
     width: 50px;
     height: 50px;
     overflow: hidden;
     border-radius: 50%;
     margin-bottom: 10px;
     border: 0.5px solid rgb(232, 232, 232);
-    box-shadow: 0px 0px 8px 3px  rgb(237, 237, 237);
+    box-shadow: 0px 0px 8px 3px rgb(237, 237, 237);
 }
-.testimonial .slider .slides .profileAvatar img{
+
+.testimonial .slider .slides .profileAvatar img {
     width: 100%;
     height: 100%;
 }
-.testimonial .slider .slides h3{
+
+.testimonial .slider .slides h3 {
     font-size: 15px;
     color: rgb(70, 70, 70);
 }
-.testimonial .sliderController{
+
+.testimonial .sliderController {
     width: auto;
     height: 15px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: absolute;
-    transform:translateY(40vh) ;
+    transform: translateY(40vh);
 }
-.testimonial .sliderController div{
+
+.testimonial .sliderController div {
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -594,9 +644,10 @@ body{
     border: 0.6px solid rgb(206, 203, 203);
     transition: all 0.4s ease-in-out;
     margin: 4px;
-   
+
 }
-.testimonial .sliderController div:hover{
+
+.testimonial .sliderController div:hover {
     background-color: #d1cfcf;
     transition: all 0.4s ease-in-out;
 }
@@ -606,7 +657,7 @@ body{
 
 
 /*============================ Blog Section start =======================================*/
-.blog{
+.blog {
     width: 100%;
     display: flex;
     align-items: center;
@@ -616,7 +667,7 @@ body{
     padding: 40px;
     background-color: white;
 }
-   
+
 .blog .content {
     width: 100%;
     display: flex;
@@ -625,19 +676,89 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     padding-top: 40px;
-    overflow-x:hidden;
+    overflow-x: scroll;
 }
-
-.blog .b-slider{
+.b-slider-nav{
     display: flex;
     width: 100%;
-    
+   justify-content: flex-end;
+   box-sizing: border-box;
+   
+}
+.b-prev{
+    margin-right: 10px;
+    font-size: 18px;
+    color: grey;
+    cursor: pointer;
+}
+.b-next{
+    color: #dc3545;
+    font-size: 18px;
+    cursor: pointer;
 }
 
+.blog .content::-webkit-scrollbar{
+    height: 0px;
+}
+.blog .b-slider {
+    display: flex;
+    width: auto;
+    overflow-x: scroll;
+    margin-left: 100%;
+}
 
+.blog .b-slider::-webkit-scrollbar {
+    height: 0px;
+}
+
+.blog .b-slides {
+    width: 350px;
+    margin-right: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog-image {
+    width: 100%;
+    height: 200px;
+}
+
+.blog-image img {
+    width: 100%;
+    height: 100%;
+}
+.blog .date{
+    background-color: #dc3545;
+    color: white;
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    position: relative;
+    margin-top: -30px;
+}
+.blog .lower-content{
+    padding-top: 20px;
+}
+.blog .lower-content p{
+    font-size: 15px;
+    color: rgb(113, 114, 114);
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.blog .lower-content span{
+    color: #dc3545;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 /*============================================= Contact Section Start ==================================*/
 
-.contact{
+.contact {
     width: 100%;
     display: flex;
     align-items: center;
@@ -656,25 +777,29 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     padding-top: 40px;
-    overflow-x:hidden;
+    overflow-x: hidden;
+    padding-bottom: 10px;
 }
-.contact .content form{
+
+.contact .content form {
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     padding-left: 10px;
-    padding-right:10px ;
+    padding-right: 10px;
     box-sizing: border-box;
 }
-.contact .row{
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-   box-sizing: border-box;
+
+.contact .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
-.contact input{
+
+.contact input {
     height: 40px;
     border: none;
     border-bottom: 1px solid rgb(184, 182, 182);
@@ -687,16 +812,19 @@ body{
     box-shadow: 0px 0px 6px 2px rgb(229, 229, 229);
 
 }
-.contact input:focus{
+
+.contact input:focus {
     transition: all 0.5s ease-in-out;
     outline: none;
     border-bottom: 1px solid #dc3545;
 }
-.contact input:focus::placeholder{
-    color:  #dc3545;
+
+.contact input:focus::placeholder {
+    color: #dc3545;
     transition: all 0.5s ease-in-out;
 }
-.contact textarea{
+
+.contact textarea {
     resize: none;
     width: 100%;
     height: 150px;
@@ -706,16 +834,19 @@ body{
     padding: 20px;
     box-sizing: border-box;
 }
-.contact textarea:focus{
+
+.contact textarea:focus {
     transition: all 0.5s ease-in-out;
     outline: none;
     border-bottom: 1px solid #dc3545;
 }
-.contact textarea:focus::placeholder{
-    color:  #dc3545;
+
+.contact textarea:focus::placeholder {
+    color: #dc3545;
     transition: all 0.5s ease-in-out;
 }
-.contact button{
+
+.contact button {
     height: 40px;
     width: 150px;
     box-sizing: border-box;
@@ -731,7 +862,8 @@ body{
     box-shadow: 0px 0px 6px 2px rgb(229, 229, 229);
 
 }
-.contact button:hover{
+
+.contact button:hover {
     border: 2px solid #dc3545;
     background: transparent;
     color: #dc3545;
