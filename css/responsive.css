@@ -12,6 +12,29 @@
         margin-left: 0%;
     }
 
+    .home {
+        height: 75vh;
+    }
+    .homeBackground {
+        height: 75vh;
+    }
+    .homeContent {
+        position: absolute;
+        width: 100%;
+        height: 75vh;
+    }
+
+    .homeContent h1 {
+        font-size: 40px;
+    }
+    .autoSlider p {
+        font-size: 34px;
+    }
+    .mouseGif {
+        left: -13vw;
+        top: 19vh;
+    }
+
 
     .about {
         padding: 30px;
@@ -21,13 +44,124 @@
         flex-direction: column;
     }
 
-    .about .left {
-        overflow-x: hidden;
-    }
-
     .content .right {
         width: 25vh;
         height: 25vh;
         border-radius: 50%;
+    }
+
+    .about .left {
+        width: 100%;
+        overflow-x: hidden;
+        padding-top: 80px;
+    }
+
+    .left h2 {
+        text-align: justify;
+    }
+
+    .left p:nth-child(3) {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .about .row {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .portfolio{
+        padding: 20px;
+    }
+    .profileData .row {
+        align-items: flex-start;
+        padding-bottom: 0px;
+        flex-direction: column;
+    }
+
+    .profileData .data-item {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .about button {
+        width: 130px;
+        margin-top: 20px;
+    }
+
+
+    .services{
+        padding: 20px;
+    }
+    .services .content {
+        padding-bottom: 0px;
+    }
+
+    .services .content .row {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .services .content .card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .portfolio {
+        padding: 15px;
+        padding-top: 50px;
+    }
+    .portfolio .content {
+        padding-bottom: 0px;
+    }
+    .portfolio .content .row:nth-child(1) {
+        padding-right: 10px;
+    }
+    .portfolio .content .row:nth-child(2) {
+        padding-left: 10px;
+    }
+
+    .portfolio .content .item_listing {
+        display: flex;
+    }
+
+    .portfolio .content .card {
+        margin-bottom: 20px;
+        height: 200px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .testimonial {
+        padding: 20px;
+    }
+    .testimonial .slider {
+        margin-left: 213%;
+    }
+
+    .blog{
+        padding: 20px;
+    }
+    .blog .b-slider {
+        margin-left: 537%;
+    }
+
+    .contact{
+        padding: 20px;
+    }
+    .contact .content form {
+        padding: 0px;
+    }
+    .contact .row {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .contact input {
+        width: 100%;
+    }
+    .contact textarea {
+        margin-top: 20px;
     }
 }
