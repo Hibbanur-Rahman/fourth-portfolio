@@ -1,0 +1,33 @@
+@media screen and (max-width:460px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+
+    .about {
+        padding: 30px;
+    }
+
+    .about .content {
+        flex-direction: column;
+    }
+
+    .about .left {
+        overflow-x: hidden;
+    }
+
+    .content .right {
+        width: 25vh;
+        height: 25vh;
+        border-radius: 50%;
+    }
+}
