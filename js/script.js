@@ -1,3 +1,17 @@
+//home page automation text
+var autoSlider=document.querySelector('.autoSlider');
+var AutoTextArr=['Youtuber','Developer','Designer'];
+var AutoText=document.querySelector('#AutoText');
+var autoTextCounter=0;
+setInterval(()=>{
+    AutoText.innerHTML=AutoTextArr[autoTextCounter];
+    autoTextCounter++;
+    if(autoTextCounter>=AutoTextArr.length){
+        autoTextCounter=0;
+    }
+},1000)
+
+
 //portfolio navbar 
 var navItems = document.querySelectorAll('.portfolioNavitem');
 var itemListing = document.querySelector('.item_listing');
@@ -114,3 +128,4 @@ bprev.addEventListener('click',()=>{
         bcountPrev=1;
     }
 })
+
